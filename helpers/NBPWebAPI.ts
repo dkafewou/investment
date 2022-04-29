@@ -1,4 +1,4 @@
-import Config from "./config"
+import Config from "./Config"
 import axios, { AxiosInstance } from "axios"
 import logger from "./logger"
 import moment = require("moment")
