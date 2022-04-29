@@ -49,7 +49,7 @@ export default class NBPWebAPI {
         response5.data
       )
     } catch (err) {
-      logger.error(`Could not broadcast message: ${err}`)
+      logger.error(`Could not fetch NBP data: ${err}`)
       throw err
     }
   }
@@ -101,12 +101,12 @@ export default class NBPWebAPI {
   }
 }
 
-interface Response {
+export interface Response {
   data: string
   cena: number
 }
 
-interface Interval {
+export interface Interval {
   buy: number
   sell: number
   buyDate: string
