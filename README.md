@@ -5,7 +5,7 @@ investment in gold during the last 5 years.
 ##How to set up (MacOS)
 requirement: node14, docker (if you running it as docker container)
 
-- Clone the repo git clone https://github.com/dkafewou/investment.git and cd investment
+- Clone the repo `git clone https://github.com/dkafewou/investment.git` and `cd investment`
 
 - Install dependencies: `npm install`
 
